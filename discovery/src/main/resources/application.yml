@@ -1,0 +1,10 @@
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false #为服务端 不需要到eureka去注册
+    fetch-registry: false
+    
