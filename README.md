@@ -21,4 +21,5 @@
 
 ## 参考
 
-《JavaEE开发的颠覆者Spring Boot实战》汪云飞，第12章
+- 《JavaEE开发的颠覆者Spring Boot实战》汪云飞，第12章
+- 《Spring Cloud微服务实战》

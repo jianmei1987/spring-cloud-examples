@@ -17,8 +17,7 @@ import com.wisely.ui.domain.Person;
 @FeignClient("person")
 public interface PersonService {
 
-    @RequestMapping(method = RequestMethod.POST, value = "/save",
-            produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(method = RequestMethod.POST, value = "/save", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     List<Person> save(@RequestBody String name);
 }

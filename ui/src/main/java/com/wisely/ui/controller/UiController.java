@@ -14,6 +14,7 @@ import com.wisely.ui.service.SomeHystrixService;
 
 @RestController
 public class UiController {
+
     @Autowired
     private SomeHystrixService someHystrixService;
 
